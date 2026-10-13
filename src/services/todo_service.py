@@ -4,7 +4,7 @@ _todos = []
 _next_id = 1
 
 def get_all_todos():
-  return {"message": "List of all the todos"}
+  return _todos
 
 def set_new_todo(todo: TodoCreate):
   global _next_id
